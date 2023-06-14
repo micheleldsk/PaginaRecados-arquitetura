@@ -7,8 +7,9 @@ Orientações: <br>
 - Manter as mesmas funcionalidades já criadas. <br>
 <br>
 Entrega: <br>
-- Repositório no Github para o back-end; <br>
-- Repositório no Github para o front-end; <br>
-- Link da aplicação na plataforma hospedada (somente do back-end): https://recados-reactivos-micheleldsk.vercel.app/
+- Repositório no Github para o front-end: https://github.com/micheleldsk/PaginaRecados-react.git <br>
+- Link da aplicação hospedada: https://recados-reactivos-micheleldsk.vercel.app/ <br>
+- Repositório no Github para o back-end: https://github.com/micheleldsk/PaginaRecados-arquitetura.git <br>
+- Link da aplicação hospedada:
 </h4>
 <h5> Por Michele Ladanivski (@micheleldsk), Junho/2023 </h5>
