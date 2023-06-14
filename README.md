@@ -1,6 +1,6 @@
 # PaginaRecados - Arquitetura 🚀
 
-<h4> Refatoração do projeto PaginaRecados (https://github.com/micheleldsk/PaginaRecados-react-apiTypeOrm.git) feito em react, com integração ao banco de dados (criado através de migrations e utilizando entities com seus relacionamentos) e configurado TypeORM para persistir os dados e recados do usuário. <br>
+<h4> Refatoração do projeto PaginaRecados (https://github.com/micheleldsk/PaginaRecados-react-apiTypeOrm.git) feito inicialmente em react, com integração ao banco de dados (criado através de migrations e utilizando entities com seus relacionamentos) e configurado TypeORM para persistir os dados e recados do usuário. <br>
 <br>
 Orientações: <br>
 - Organizar o código da API usando a arquitetura proposta em aula. <br>
