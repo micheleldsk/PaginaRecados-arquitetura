@@ -10,6 +10,6 @@ Entrega: <br>
 - Repositório no Github para o front-end: https://github.com/micheleldsk/PaginaRecados-react.git <br>
 - Link da aplicação hospedada: https://recados-reactivos-micheleldsk.vercel.app/ <br>
 - Repositório no Github para o back-end: https://github.com/micheleldsk/PaginaRecados-arquitetura.git <br>
-- Link da aplicação hospedada:
+- Link da aplicação hospedada: https://paginarecados-arquitetura.onrender.com/
 </h4>
 <h5> Por Michele Ladanivski (@micheleldsk), Junho/2023 </h5>
