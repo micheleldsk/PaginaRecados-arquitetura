@@ -1,0 +1,14 @@
+services:
+  - name: PaginaRecados-arquitetura
+    env:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        value: postgres://ggrdaibv:OudbKJ4xqS4p-XU7xsGXmwZz_3VXcpbu@babar.db.elephantsql.com/ggrdaibv
+      - key: PORT
+        value: 8081
+      - key: REDIS_URL
+        value: redis://red-ci50iltgkuvj7bk55hag:6379
+  buildCommand: npm install && npm run build
+  startCommand: npm start
+  plan: Individual
