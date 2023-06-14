@@ -1,13 +1,16 @@
 {
-  "name": "avfinal",
+  "name": "pagina-recados-arquitetura",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
     "build": "tsc",
-    "start": "node ./dist/index.js",
+    "start": "node .",
     "migration:create": "typeorm migration:create src/database/migrations/CreateTable",
     "migration:show": "typeorm-ts-node-commonjs migration:show -d src/database/typeorm.ts",
     "migration:run": "typeorm-ts-node-commonjs migration:run -d src/database/typeorm.ts",
