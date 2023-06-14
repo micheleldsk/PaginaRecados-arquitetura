@@ -1,0 +1,40 @@
+{
+  "name": "avfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "migration:create": "typeorm migration:create src/database/migrations/CreateTable",
+    "migration:show": "typeorm-ts-node-commonjs migration:show -d src/database/typeorm.ts",
+    "migration:run": "typeorm-ts-node-commonjs migration:run -d src/database/typeorm.ts",
+    "migration:revert": "typeorm-ts-node-commonjs migration:revert -d src/database/typeorm.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.2",
+    "@types/pg": "^8.10.1",
+    "@types/reflect-metadata": "^0.1.0",
+    "@types/uuid": "^9.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "pg": "^8.11.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.16",
+    "uuid": "^9.0.0"
+  }
+}
