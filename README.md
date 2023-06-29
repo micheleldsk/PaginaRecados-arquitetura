@@ -5,6 +5,8 @@
 Orientações: <br>
 - Organizar o código da API usando a arquitetura proposta em aula. <br>
 - Manter as mesmas funcionalidades já criadas. <br>
+- Adicionado tests (unitários e de integração) nas features da lista de recados.
+  Utilizando Jest e mock para desenvolver os testes unitários. <br>
 <br>
 Entrega: <br>
 - Repositório no Github para o front-end: https://github.com/micheleldsk/PaginaRecados-react.git <br>
